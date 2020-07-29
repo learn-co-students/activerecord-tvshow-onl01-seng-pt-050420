@@ -59,7 +59,7 @@ describe Show do
   end
 
   describe "::ratings_sum" do
-    it "returns the sum of all the ratings of all the tv shows" do
+    it "returns the sum k.nameof all the ratings of all the tv shows" do
       expect(Show.ratings_sum).to eq(22)
     end
   end
